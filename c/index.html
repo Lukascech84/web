@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../img/favicon.jpg" />
+    <title>Ovladače, firmware a utility</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/prechoddomenu.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="nadpis">
+      <nav>
+        <a class="prechodmenu" href="#">Menu</a>
+        <a class="prechodstranka1" href="#">Stránka 1</a>
+        <a class="prechodstranka2" href="#">Stránka 2</a>
+        <a class="active" href="#">Stránka 3</a>
+        <a class="prechodstranka4" href="#">Stránka 4</a>
+        <a class="prechodstranka5" href="#">Stránka 5</a>
+        <div class="animation start-home"></div>
+      </nav>
+    </div>
+
+    <div class="prechodstrankactverec"></div>
+    <div class="prechod"></div>
+    <div class="menu1"></div>
+    <div class="menu2"></div>
+
+    <main>
+      <h1>
+        <i class="fas fa-screwdriver"></i> Ovladače, firmware a utility
+        <i class="fas fa-upload"></i>
+      </h1>
+      <h2><i class="fab fa-microsoft"></i> Software</h2>
+      <div style="color: white;">
+        K systémovému software můžeme kromě operačních systémů zařadit ovladače
+        hardarových zařízení, firmware a aspoň zčásti i tzv. utility.
+        <figure>
+          <figcaption>Software</figcaption>
+          <img src="../c/images/software.png" alt="Software">
+        </figure>
+      </div>
+      <h2><i class="fas fa-screwdriver"></i> Ovladače zařízení</h2>
+      <p>
+        Speciální programy, které zajišťují komunikaci OS s určitým technickým
+        vybavením. Bez potřebného ovladače nemůže zařízení správně fungovat.
+        Standardní ovladače pro běžná zařízení, jakými jsou flash disk, myš,
+        klávesnice nebo digitální fotoaparáty, bývají součástí moderních OS.
+        Instalaci zařízení ve Windows usnadňuje standard
+        <b>Plug and Play</b> (<i>PnP - „připoj a hrej“</i>), který zajistí
+        automatickou detekci nově připojeného hardware a případně i automatické
+        vyhledání potřebného ovladače. Není-li driver nalezen přímo v OS, musí
+        být použit externí instalátor ovladače z disku dodaného se zařízením
+        (např. z instalačního CD k tiskárně), nebo stažený z internetových
+        stránek, nejlépe přímo od výrobce. Nevhodně zvolený ovladač může v
+        krajním případě způsobit nefunkčnost zařízení, někdy i celého OS.
+      </p>
+      <h2><i class="fas fa-wrench"></i> Firmware</h2>
+      <p>
+        Programové vybavení, které slouží pro řízení nějakého vestavěného
+        systému (<i>embedded system</i>). Firmware řídí například kalkulačky,
+        počítačové komponenty (pevný disk, router...), mobilní telefon,
+        digitální fotoaparát atd. Dříve byla aktualizace firmwaru realizována
+        nahrazením paměťového média obsahujícího firmware (např. výměna ROM
+        paměti), dnes může být novější verze firmware přepsána díky používaným
+        flash pamětem. Základním firmwarem v počítači je <b>BIOS</b> (<i
+          >Basic Output-Input System</i
+        >), který zajišťuje především start počítače a umožňuje konfiguraci
+        základní desky i připojeného hardware.
+      </p>
+      <h2><i class="fas fa-tasks"></i> Utility</h2>
+      <p>
+        Jsou menší pomocné programy, které umožňují vykonávat servisní operace
+        potřebné k fungování počítače. Patří k nim komprimační programy,
+        diagnostické a testovací programy, utility pro kontrolu a optimalizaci
+        operačního systému, různé konverzní (převodní) programy, které umí
+        přehledně zobrazit obrázky, převést je z jednoho formátu na jiný atd.
+        Řada utilit je integrální součástí OS. Příkladem může být
+        <i>Správce úloh</i> ve Windows (<i>Task Manager</i>), který umožňuje
+        nejen správu spuštěných programů a služeb, ale i sledování využití
+        systémových zdrojů (procesoru, paměti). Dalšími užitečnými utilitami
+        jsou nástroje pro defragmentaci (<i>defrag</i>) nebo kontrolu disku
+        (<i>chkdsk</i>). Některé utility lze spouštět z příkazového řádku (<i
+          >ping, ipconfig apod.</i
+        >).
+      </p>
+    </main>
+
+    <footer class="konec">
+      <div>© 2021: Lukáš Čech, IT1</div>
+      <div>Kontakt: lukas-cech@seznam.cz</div>
+    </footer>
+  </body>
+</html>

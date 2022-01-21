@@ -1,0 +1,503 @@
+body {
+  background-image: url("../img/bg.jpg");
+}
+
+.menu1 {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(39, 199, 248),
+    rgb(0, 0, 0)
+  );
+  height: 100%;
+  width: 60%;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  animation-name: menu1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0s;
+  animation-timing-function: ease;
+  overflow: hidden;
+}
+
+.menu2 {
+  background-image: linear-gradient(to top left, rgb(90, 90, 90), rgb(0, 0, 0));
+  height: 100%;
+  width: 40%;
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+  animation-name: menu2;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0s;
+  animation-timing-function: ease;
+  overflow: hidden;
+}
+
+.menu3 {
+  background-color: rgb(46, 46, 46);
+  height: 100%;
+  width: 100%;
+  left: 0%;
+  top: -100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.text1 {
+  margin-top: 50px;
+  height: 75px;
+  overflow: hidden;
+  position: relative;
+  margin-left: 25%;
+}
+.text1 h3 {
+  font-size: 40px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 80px;
+  text-align: left;
+  font-family: "Permanent Marker", cursive;
+  animation-name: textanimace1;
+  animation-duration: 0.75s;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-out;
+}
+
+.text1 h3 a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: color 0.5s;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(19, 19, 19);
+}
+
+.text1 h3 a:hover {
+  color: aqua;
+}
+
+@keyframes textanimace1 {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.text2 {
+  margin-top: 50px;
+  height: 75px;
+  overflow: hidden;
+  position: relative;
+  margin-left: 30%;
+}
+.text2 h3 {
+  font-size: 40px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 80px;
+  text-align: left;
+  font-family: "Permanent Marker", cursive;
+  animation-delay: 0.6s;
+  animation-name: textanimace2;
+  animation-duration: 0.75s;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-out;
+}
+
+.text2 h3 a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: color 0.5s;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(19, 19, 19);
+}
+
+.text2 h3 a:hover {
+  color: aqua;
+}
+
+@keyframes textanimace2 {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.text3 {
+  margin-top: 50px;
+  height: 75px;
+  overflow: hidden;
+  position: relative;
+  margin-left: 35%;
+}
+.text3 h3 {
+  font-size: 40px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 80px;
+  text-align: left;
+  font-family: "Permanent Marker", cursive;
+  animation-delay: 0.7s;
+  animation-name: textanimace3;
+  animation-duration: 0.75s;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-out;
+}
+
+.text3 h3 a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: color 0.5s;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(19, 19, 19);
+}
+
+.text3 h3 a:hover {
+  color: aqua;
+}
+
+@keyframes textanimace3 {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.text4 {
+  margin-top: 50px;
+  height: 75px;
+  overflow: hidden;
+  position: relative;
+  margin-left: 25%;
+}
+.text4 h3 {
+  font-size: 40px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 80px;
+  text-align: left;
+  font-family: "Permanent Marker", cursive;
+  animation-delay: 0.8s;
+  animation-name: textanimace4;
+  animation-duration: 0.75s;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-out;
+}
+.text4 h3 a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: color 0.5s;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(19, 19, 19);
+}
+
+.text4 h3 a:hover {
+  color: aqua;
+}
+
+@keyframes textanimace4 {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.text5 {
+  margin-top: 50px;
+  height: 75px;
+  overflow: hidden;
+  position: relative;
+  margin-left: 20%;
+}
+.text5 h3 {
+  font-size: 40px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 80px;
+  text-align: left;
+  font-family: "Permanent Marker", cursive;
+  animation-delay: 0.9s;
+  animation-name: textanimace5;
+  animation-duration: 0.75s;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-out;
+}
+
+.text5 h3 a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: color 0.5s;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(19, 19, 19);
+}
+
+.text5 h3 a:hover {
+  color: aqua;
+}
+
+@keyframes textanimace5 {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.nadpis1 {
+  margin-top: 20px;
+  height: 80px;
+  overflow: hidden;
+  position: relative;
+  margin-left: 20%;
+}
+.nadpis1 h1 {
+  margin-bottom: 0px;
+  font-size: 60px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 100px;
+  text-align: left;
+  font-family: "Permanent Marker", cursive;
+  animation-delay: 0.3s;
+  animation-name: nadpisanimace1;
+  animation-duration: 0.75s;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-out;
+  color: rgb(0, 78, 102);
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: black;
+}
+
+@keyframes nadpisanimace1 {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.about1 {
+  margin-top: 40px;
+  height: 80px;
+  display: flex;
+  position: relative;
+  margin-left: 10%;
+  overflow: hidden;
+}
+.about1 h4 {
+  margin-bottom: 0px;
+  font-size: 60px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 100px;
+  text-align: left;
+  font-family: "Permanent Marker", cursive;
+  animation-delay: 1.2s;
+  animation-name: aboutanimace1;
+  animation-duration: 0.75s;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-out;
+  color: rgb(192, 192, 192);
+}
+.about1 h4 {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(19, 19, 19);
+}
+
+@keyframes aboutanimace1 {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.about2 {
+  margin-top: 40px;
+  display: flex;
+  position: static;
+  margin-left: 10%;
+  overflow: hidden;
+}
+
+.about2 h4 {
+  padding-top: 40px;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  position: absolute;
+  width: 75%;
+  height: 100%;
+  font-family: "Permanent Marker", cursive;
+  animation-delay: 1.3s;
+  animation-name: aboutanimace2;
+  animation-duration: 0.75s;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-out;
+  color: rgb(192, 192, 192);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(19, 19, 19);
+}
+
+@keyframes aboutanimace2 {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.kontakt1 {
+  margin-top: 60%;
+  height: 80px;
+  display: flex;
+  position: relative;
+  margin-left: 10%;
+  overflow: hidden;
+}
+.kontakt1 h4 {
+  margin-bottom: 0px;
+  font-size: 60px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 100px;
+  text-align: left;
+  font-family: "Permanent Marker", cursive;
+  animation-delay: 1.4s;
+  animation-name: kontaktanimace1;
+  animation-duration: 0.75s;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-out;
+  color: rgb(192, 192, 192);
+}
+.kontakt1 h4 {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(19, 19, 19);
+}
+
+@keyframes kontaktanimace1 {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.kontakt2 {
+  margin-top: 40px;
+  display: flex;
+  position: static;
+  margin-left: 10%;
+  overflow: hidden;
+}
+
+.kontakt2 h4 {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  position: absolute;
+  width: 75%;
+  height: 100%;
+  font-family: "Permanent Marker", cursive;
+  animation-delay: 1.5s;
+  animation-name: aboutanimace2;
+  animation-duration: 0.75s;
+  animation-fill-mode: backwards;
+  animation-timing-function: ease-out;
+  color: rgb(192, 192, 192);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(19, 19, 19);
+}
+
+@keyframes kontaktanimace2 {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}

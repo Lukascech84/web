@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="../img/favicon.jpg" />
+    <title>Instalace programů</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/prechoddomenu.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="nadpis">
+      <nav>
+        <a class="prechodmenu" href="#">Menu</a>
+        <a class="prechodstranka1" href="#">Stránka 1</a>
+        <a class="prechodstranka2" href="#">Stránka 2</a>
+        <a class="prechodstranka3" href="#">Stránka 3</a>
+        <a class="prechodstranka4" href="#">Stránka 4</a>
+        <a class="active" href="#">Stránka 5</a>
+        <div class="animation start-menu"></div>
+      </nav>
+    </div>
+
+    <div class="prechodstrankactverec"></div>
+    <div class="prechod"></div>
+    <div class="menu1"></div>
+    <div class="menu2"></div>
+
+    <main>
+      <h1>
+        <i class="fas fa-download"></i> Instalace programů
+        <i class="fas fa-hdd"></i>
+      </h1>
+      <h2><i class="fas fa-cloud-download-alt"></i> Instalace programů</h2>
+      <p>
+        Program, který si koupíme, dostaneme na CD/DVD disku, nebo si ho
+        stáhneme z Internetu. Po vložení instalačního CD/DVD disku se většinou
+        okamžitě spustí instalační program (<i>díky souboru autorun.inf</i>), v
+        případě softwaru staženého z Internetu musíme instalační program spustit
+        sami (ve Windows nejčastěji poklepáním na soubory
+        <i>install.exe či setup.exe</i>). Průvodce instalací (<i>wizzard</i>) si
+        často vyžádá sériové číslo a souhlas s licenčními podmínkami, zeptá se,
+        kam (do jaké složky na disku) se má program uložit a kam se má umístit
+        zástupce programu, případně žádá další informace. Potom instalační
+        program nahraje všechny soubory, ze kterých se program skládá, na pevný
+        disk počítače, provede nutnou konfiguraci (v systémovém registru
+        Windows, konfiguračních souborech) a nakonec vytvoří zástupce programu
+        pro jeho snadné spuštění. K instalaci většiny programů je nutné mít
+        práva správce
+      </p>
+
+      <figure>
+        <figcaption>Instalace</figcaption>
+        <img src="../e/images/download.png" alt="Instalace" />
+      </figure>
+
+      <h2><i class="fas fa-save"></i> Odinstalace programů</h2>
+      <p>
+        Úplné odebrání programu bývá paradoxně často složitější, zvláště v
+        systémech Windows. Při instalaci si program nahraje své komponenty do
+        mnoha složek včetně systémových, sdílí některé soubory s jinými programy
+        (dynamické knihovny DLL), vytvoří záznamy v tzv. registru, při svém běhu
+        vytváří pomocné soubory. Program, zajišťující odinstalování aplikace,
+        často neví přesně, kde všude jsou programové soubory uložené a všechny
+        je nesmaže. V řadě případů tak dochází k hromadění zbytečných a
+        nepoužívaných souborů. Pro jejich odstranění lze používat některé
+        speciální utility – např. <i>RegCleaner</i> (program pro čištění
+        registrů). Při podobných operacích je však nutné postupovat velmi
+        obezřetně, aby nedošlo k odstranění některé důležité součásti systému
+        nebo používaného programu! V linuxových systémech je lépe vyřešeno
+        oddělení systémových a uživatelských souborů, úplné odstranění
+        nepotřebného programu je proto pravděpodobnější.
+      </p>
+
+      <h2><i class="fas fa-language"></i> Lokalizace</h2>
+      <p>
+        Lokalizace je překlad programu, v našem případě do češtiny. Většina
+        významných softwarových firem pochází z anglicky mluvících zemí a
+        originály programů tedy existují v angličtině. Dnes je však zcela běžné,
+        že tyto firmy mají místní zastoupení, která zajišťují prodej programů,
+        ale také je před prodejem lokalizují - převedou do češtiny. Lokalizace
+        je drahá a časově náročná činnost, protože se musí přeložit nejen volby
+        nabídek a obsah dialogových oken, ale také nápověda k programu a návod k
+        programu (manuál), případně vytvořit dělicí slovník pro české dělení
+        slov a český korektor pravopisu
+      </p>
+
+      <h2><i class="fas fa-mobile"></i> Platforma a kompatibilita</h2>
+      <p>
+        V souvislosti s určitým typem OS i typem procesoru používáme pojem
+        <b>platforma</b> - např. Windows, Linux, OS X. Používaný program musí
+        být určen pro operační systém, který je na počítači nainstalován; pod
+        jiným systémem většinou nepracuje (např. program určený pro MS Windows
+        nebude pracovat pod Linuxem a naopak). Mnoho programů, zvláště z oblasti
+        svobodného software (<i>free software</i>), má proto verze určené pro
+        několik operačních systémů – jsou <b>multiplatformní</b>. Problémy se
+        spuštěním programu však mohou nastat i na jedné platformě v souvislosti
+        s různými verzemi OS i rozdíly mezi 32bitovými a 64bitovými systémy
+        (například nový program určený pro MS Windows může spolehlivě fungovat v
+        novějších verzích Windows, ale nemusí pracovat pod starší verzí stejného
+        OS). Při pořizování programu si proto vždy musíme ověřit, zda je
+        <b>kompatibilní</b> (ve funkční shodě) s námi používaným operačním
+        systémem. V nových systémech Windows je v případě problémů možné využít
+        nastavení na kartě <i>Kompatibilita</i>, která je součástí panelu
+        Vlastnosti pro zástupce dané aplikace.
+      </p>
+
+      <h2><i class="fas fa-bookmark"></i> Verze programů</h2>
+      <p>
+        U počítačových programů je důležitá jeho verze, která se označuje číslem
+        za názvem programu. Nový program může být například označen jako verze
+        1.0. Některé dodatečně zjištěné dílčí nedostatky nebo bezpečnostní
+        problémy řeší aktualizace programu (dnes nejčastěji přes Internet),
+        <b>update</b>. Aktualizace jsou zakázníkům, kteří si zakoupili určitou
+        verzi programu, obvykle poskytovány bezplatně. Pro přehlednost jsou
+        označovány buď datem vydání, nebo symbolickým číselným vyjádřením
+        podverze – např. 1.1 nebo 1.23 apod. Povýšení na novou verzi (např.
+        2.0), <b>upgrade</b>, přináší významnější změny ve vývoji programu a v
+        případě komerčního software je třeba vyšší verzi znovu zaplatit. Bývá
+        pravidlem, že nové verze mají nové funkce a lepší ovládání, ale také
+        vyšší nároky na výkon počítače. Před provedením upgrade je tedy nutné
+        zjistit doporučenou (případně minimální) konfiguraci počítače, aby bylo
+        možné program na daném počítači možné vůbec používat. Opačný postup,
+        tedy použití nižší verze programu (např. kvůli nekompatibilitě s
+        instalovaných OS nebo nedostatečnou konfigurací počítače), se nazývá
+        <b>downgrade</b>.
+      </p>
+
+      <h2><i class="fas fa-sign-in-alt"></i> Registrace programů</h2>
+      <div style="color: white">
+        <b>Registrace programu</b> je zaevidování jeho uživatele do databáze
+        výrobce programu. Registrace je nepovinná a přináší většinou několik
+        výhod:
+        <ul>
+          <li>
+            Nárok na upgrade programu za sníženou cenu; uživatel se často včas
+            dozví o časově omezených nabídkách výhodného nákupu upgradu nebo
+            dalších programů od stejné firmy;
+          </li>
+          <li>
+            Někteří výrobci programů posílají svým registrovaným uživatelům
+            materiály (časopisy, prospekty), kde se dozvíte zkušenosti jiných
+            uživatelů s programem, bývají zde informace o nových verzích
+            programu, případně o vzniklých doplňcích daného programu;
+          </li>
+          <li>
+            U některých programů po registraci vzniká nárok na využití
+            zákaznické linky v případě potíží s programem.
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer class="konec">
+      <div>© 2021: Lukáš Čech, IT1</div>
+      <div>Kontakt: lukas-cech@seznam.cz</div>
+    </footer>
+  </body>
+</html>
